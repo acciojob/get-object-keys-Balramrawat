@@ -5,19 +5,10 @@ const student={
 	city:"palwal"
 }
 
-window.myObj = {
+const myObj={
 	getKeys: function(obj){
 		return Object.keys(obj)
 	}
 }
-
-console.log(window.myObj.getKeys(student));
-
-// const myObj={
-// 	getKeys: function(obj){
-// 		return Object.keys(obj)
-// 	}
-// }
-// window.myObj=myObj
-
-// console.log(myObj.getKeys(student));
+console.log(myObj.getKeys(student));
+window.getKeys = getKeys;
