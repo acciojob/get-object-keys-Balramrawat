@@ -15,6 +15,6 @@ function getKeys(obj) {
   return Object.keys(obj);
 }
 
-console.log(myObj.getKeys(student));
+console.log(getKeys(student));
 window.getKeys = getKeys;
 
