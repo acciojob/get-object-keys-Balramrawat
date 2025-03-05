@@ -1,20 +1,21 @@
 
 const student={
-	name:"balram",
-	age:24,
-	city:"palwal"
+	name:"balram"
+	
 }
 
-const myObj={
-	getKeys: function(obj){
-		return Object.keys(obj)
-	}
-}
-
-// function getKeys(obj) {
-//   return Object.keys(obj);
+// const myObj={
+// 	getKeys: function(obj){
+// 		return Object.keys(obj)
+// 	}
 // }
 
-console.log(myObj.getKeys(student));
-window.getKeys = getKeys;
-window.student=student;
+function getKeys(obj) {
+  // return Object.keys(obj);
+}
+
+Object.prototype.getKeys=function(){
+	return Object.keys(this)
+}
+// console.log(getKeys(student));
+
