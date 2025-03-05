@@ -10,5 +10,5 @@ const myObj={
 		return Object.keys(obj)
 	}
 }
-
+window.myObj=myObj
 console.log(myObj.getKeys(student));
