@@ -5,10 +5,10 @@ const student={
 	city:"palwal"
 }
 
-function getKeys(obj) {
-  return Object.keys(obj);
+const myObj={
+	getKeys: function(obj){
+		return Object.keys(obj)
+	}
 }
 
-
-
-console.log(getKeys(student));
+console.log(myObj.getKeys(student));
