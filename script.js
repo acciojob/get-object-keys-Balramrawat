@@ -12,4 +12,4 @@ function getKeys(obj) {
 window.getKeys=getKeys;
 window.student=student;
 
-console.log(getKeys(myObj));
+console.log(getKeys(student));
