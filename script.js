@@ -16,4 +16,5 @@ const myObj={
 // }
 
 console.log(myObj.getKeys(student));
-window.myObj.getKeys = getKeys;
+window.getKeys = getKeys;
+window.student=student;
